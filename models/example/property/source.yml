@@ -18,4 +18,4 @@ sources:
     database: SUPPLY_CHAIN2
     tables:
       - name: warehouse
-        identifier: WAREHOUSE_LOCATIONS      
+        identifier: WAREHOUSE_LOCATIONS
