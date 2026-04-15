@@ -1,6 +1,7 @@
 {{ config(
      tags=['gold'],
     alias='DIM_DATE',
+    materialized='table',
     database='SUPPLY_CHAIN2',
     schema='GOLD'
 ) }}

@@ -1,8 +1,9 @@
 {{ config(
    tags=['gold'],
-    alias='FACT_CUSTOMER_ORDER',
-    database='SUPPLY_CHAIN2',
-    schema='GOLD'
+   materialized='table',
+   alias='FACT_CUSTOMER_ORDER',
+   database='SUPPLY_CHAIN2',
+   schema='GOLD'
 ) }}
 
 SELECT
