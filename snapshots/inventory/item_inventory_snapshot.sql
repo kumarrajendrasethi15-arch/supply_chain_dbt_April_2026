@@ -1,7 +1,7 @@
 {% snapshot item_inventory_snapshot  %}
 {{
     config(
-      target_database='SUPPLY_CHAIN2',
+      database='SUPPLY_CHAIN2',
       unique_key='ITEM_ID',
       strategy='check',
       schema='SILVER',
