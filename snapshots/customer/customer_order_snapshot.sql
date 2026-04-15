@@ -3,6 +3,7 @@
     config(
       unique_key='order_id',
       strategy='check',
+      database='SUPPLY_CHAIN2',
       schema='SILVER',
       check_cols=[
         'line_num',
