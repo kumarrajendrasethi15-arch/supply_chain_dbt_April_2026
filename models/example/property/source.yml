@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: orders
+    schema: landing
+    database: supply_chain2
+    tables:
+      - name: cust_order
+        identifier: raw_customer_order
+  - name: items
+    schema: landing
+    database: supply_chain2
+    tables:
+      - name: inventory
+        identifier: raw_inventory
+  - name: warehouse_loc
+    schema: RAW
+    database: SUPPLY_CHAIN2
+    tables:
+      - name: warehouse
+        identifier: WAREHOUSE_LOCATIONS
