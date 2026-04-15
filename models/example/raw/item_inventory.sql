@@ -2,6 +2,7 @@
     materialized='incremental',
     unique_key='item_id',
     incremental_strategy='merge',
+    database='SUPPLY_CHAIN2',
     schema='RAW',
     pre_hook=[
         "USE DATABASE SUPPLY_CHAIN2;",
