@@ -53,8 +53,6 @@ models:
 snapshots:
   my_new_project:
     customer:
-      +database: SUPPLY_CHAIN2
       +schema: SILVER
     inventory:
-      +database: SUPPLY_CHAIN2
       +schema: SILVER            
